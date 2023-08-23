@@ -22,7 +22,7 @@ THEN I find a concise, descriptive title
 
 ![screenshot of the deployed webpage][def]
 
-##Link to Deployed Webpage
+### Link to Deployed Webpage
 <a href="https://ryanharrishtx.github.io/week-1-challenge">Link</a>
 
 [def]: ./assets/images/Screen%20Shot%202023-08-22%20at%206.37.06%20PM.png   
