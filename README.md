@@ -20,4 +20,9 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 
 
-<img width="1153" alt="Screen Shot 2023-08-22 at 6 37 06 PM" src="https://github.com/ryanharrishtx/week-1-challenge/assets/139286619/76e9ed17-562c-409e-a120-21ace2c7ccf9">
+![screenshot of the deployed webpage][def]
+
+##Link to Deployed Webpage
+<a href="https://ryanharrishtx.github.io/week-1-challenge">Link</a>
+
+[def]: ./assets/images/Screen%20Shot%202023-08-22%20at%206.37.06%20PM.png   

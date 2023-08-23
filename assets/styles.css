@@ -1,3 +1,4 @@
+/* This is a Global Selector, meaning the properties within it are going to be applied to everything on the page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,51 +6,52 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Alters just the body element */
 body {
     background-color: #d9dcd6;
 }
-
+/* Alters every a element */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Alters every p element */
 p {
     font-size: 16px;
 }
-
+/* Alters the header, which contains the Company Name and the Nav */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Specifically alters the h1 element inside of the Header */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Specifically alters the span element inside of the Header */
 header span {
     color: #d9dcd6;
 }
-
+/* Specifically alters the nav element inside of the Header */
 header nav {
     padding: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
 }
-
+/* Specifically alters the ul elements inside of the nav inside of the Header */
 header nav ul {
     list-style-type: none;
 }
-
+/* Specifically alters the ul elements inside of the nav inside of the Header. The reason that there is still a ul outside of the above declaration is because we don't want the li elements to have a list-style-type of none, hence why we have to target the ul alone above*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* This is the large photo just below the Header */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +60,23 @@ header nav ul li {
     background-size: cover;
     background-position: center;
 }
-
+/* This allows every element this class is applied to to float left of it's sibling element */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* This allows every element this class is applied to to float right of it's sibling element */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* This is targeting the section talking about the various services that the company provides */
 .services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* This is giving each child element to the services section it's styling */
 .services-styling {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,16 +85,16 @@ header nav ul li {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* For each child element to services, this is target the h2 elements inside of those */
 .services-styling h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* For each child element to services, this is target the img elements inside of those */
 .services-styling img {
     max-height: 200px;
 }
-
+/* This is targeting the section talking about the various benefitsyou would receive by using the company */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,30 +104,30 @@ header nav ul li {
     height: 100%;
     background-color: #2589bd;
 }
-
+/* This is giving each child element to the benefits section it's styling */
 .benefits-styling {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* For each child element to benefits, this is targeting the h3 elements inside of those */
 .benefits-styling h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* For each child element to services, this is targeting the img elements inside of those */
 .benefits-styling img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* This is targeting the footer at the bottom of the page */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* This is specifically targeting the h2 element inside of the footer */
 footer h2 {
     font-size: 20px;
 }
